@@ -1,0 +1,16 @@
+docs/* linguist-vendored
+
+src/** linguist-detectable
+*.woff2 binary
+
+*.htm linguist-vendored
+
+*.ts linguist-detectable
+*.map linguist-generated
+
+node_modules/* linguist-vendored
+* text=auto
+package-lock.json linguist-generated
+* text=auto eol=lf
+*.min.js linguist-generated
+# eof 1cad810d
